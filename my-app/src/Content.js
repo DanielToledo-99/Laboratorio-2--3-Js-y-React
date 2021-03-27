@@ -3,9 +3,9 @@ import App from './index.js'
 const Content = (props) =>{
     return (
         <div>
-            <Parts part1={props.part1 } exercises1={props.exercises1}/>
-            <Parts part2={props.part2 } exercises2={props.exercises2}/>
-            <Parts part3={props.part3 } exercises3={props.exercises3}/>
+            <Parts part1={props.parts[0].name } exercises1={props.parts[0].exercises}/>
+            <Parts part1={props.parts[1].name } exercises1={props.parts[1].exercises}/>
+            <Parts part1={props.parts[2].name } exercises1={props.parts[2].exercises}/>
         </div>
     )
 }
